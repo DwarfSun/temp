@@ -2,7 +2,7 @@
 if [ ! -e cuda_9.2.148_396.37_linux ]
 then
   echo "Downloading CUDA"
-  #wget https://developer.nvidia.com/compute/cuda/9.2/Prod2/local_installers/cuda_9.2.148_396.37_linux
+  wget https://developer.nvidia.com/compute/cuda/9.2/Prod2/local_installers/cuda_9.2.148_396.37_linux
   echo "Done"
 fi
 
