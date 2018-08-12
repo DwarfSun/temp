@@ -14,6 +14,8 @@ fi
 
 if [ -x cuda_9.2.148_396.37_linux ]
 then
+  echo "Killing X Server"
+  service lightdm stop
   echo "Installing driver" 
   ./cuda_9.2.148_396.37_linux --silent --override --driver
   echo "Installing toolkit"
