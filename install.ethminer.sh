@@ -15,6 +15,7 @@ fi
 if [ -x cuda_9.2.148_396.37_linux ]
 then
   echo "Killing X Server"
+  #killall Xorg
   service lightdm stop
   service gdm stop
   service gdm3 stop
@@ -48,3 +49,4 @@ service lightdm start
 service gdm start
 service gdm3 start
 service kdm start
+
