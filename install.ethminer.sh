@@ -23,7 +23,7 @@ then
   echo "Done"
 fi
 
-apt-get install gcc-6 g++-6
+apt-get install gcc-6 g++-6 cmake build-essential
 
 git clone https://github.com/ethereum-mining/ethminer
 cd ethminer
